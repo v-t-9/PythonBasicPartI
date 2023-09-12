@@ -9,7 +9,7 @@ def time(s):
         mi = int(m)
         sec = int((m-mi)*60)
     else:
-        d = 0
+        da = 0
         h = s/3600
         hr = int(h)
         m = (h-hr)*60

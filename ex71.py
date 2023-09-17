@@ -15,5 +15,5 @@ def dir_listing_by_creation_date(p):
   
 
 if __name__ == "__main__":
-    path = "C:\OtrosRepos\PythonBasicPartI"
+    path = os.getcwd()
     print(dir_listing_by_creation_date(path))
